@@ -1,6 +1,6 @@
 ---
 title: Dart & Flutter 들어가기
-description: 풀스택서비스프로그래핑 Lecture0
+description: 풀스택서비스프로그래핑-Lecture 0
 author: Sjaize
 date: 2025-03-23 17:00:00 +0800
 categories: [Dart & Flutter]
@@ -17,11 +17,9 @@ tags: [dart, flutter]
 이미 만들어진 소프트웨어를 재사용해서 (Framework를 이용하여) 그 위에서 본인이 원하는 새로운 서비스를 만드는 일을 하자는 것이다.
 
 
-
 ## Flutter Framework
 Framework는 특정한 언어에 의해서 만들어진다.
 Django Framework는 Python, Spring Framework는 Java로 만들어졌으니, Flutter는 Dart 언어로 만들어진 Framework로 Dart와 Flutter 모두 구글에서 직접 만들었다.
-
 
 
 #### 그렇다면 Flutter는 어떤 Framework일까?
@@ -31,18 +29,15 @@ Django Framework는 Python, Spring Framework는 Java로 만들어졌으니, Flut
 
 
 
-
-
 ## Flutter의 특징
 **Cross-platform, One-source multi platform**
 
-한 번만 그리면 된다. 안드로이드 앱으로 만든 애플리케이션을 소스코드 수정 없이 IOS, Window, Linux용으로 만들 수 있다
-
+한 번만 그리면 된다. 안드로이드 앱으로 만든 애플리케이션을 소스코드 수정 없이 IOS, Window, Linux용으로 만들 수 있다.
 
 
 **Fast**
 
-기존의 multi-platform은 virtual machine을 놓고 실행하기 때문에 native platform에 특화된 기능을 사용할 수 없었다
+기존의 multi-platform은 virtual machine을 놓고 실행하기 때문에 native platform에 특화된 기능을 사용할 수 없었다.
 
 Flutter는 프로세서가 ARM이라면, ARM CPU에 특화된 실행 파일을 만들어주며, M 프로세서라고 하면 MacOS에 특화된 컴파일러를 통해 실행 파일을 만들어주니 빠르다.
 
@@ -56,7 +51,7 @@ Flutter는 프로세서가 ARM이라면, ARM CPU에 특화된 실행 파일을 �
 
 **Flexible**
 
-Flutter 내부에는 그래픽 엔진이 내장돼 있기 때문에 CPU, GPU와 직접 결합해서 그림을 그릴 수 있고, 따라서 2d 게임이나 3d 게임을 만드는 것도 가능하다
+Flutter 내부에는 그래픽 엔진이 내장돼 있기 때문에 CPU, GPU와 직접 결합해서 그림을 그릴 수 있고, 따라서 2d 게임이나 3d 게임을 만드는 것도 가능하다.
 
 
 
@@ -65,6 +60,6 @@ Flutter 내부에는 그래픽 엔진이 내장돼 있기 때문에 CPU, GPU와 
 
 통상 **클라이언트와 서버를 모두 개발할 수 있는 개발자**를 뜻한다.
 
-하지만 회사에서 클라이언트 팀과 서버 팀이 합쳐져 있다는 것은 냉정히 말하면 이상한 일이라고 볼 수 있으니
+하지만 회사에서 클라이언트 팀과 서버 팀이 합쳐져 있다는 것은 냉정히 말하면 이상한 일이라고 볼 수 있으니, 
 
-이제는 그 의미가 달라져서 풀스택이라 말하지 않고 **서버 개발자를 뽑는데 클라이언트를 짜본 경험이 있는 자, 혹은 그 반대**, 상대방을 이해하는 자라고 말할 수 있다.
+시간이 지나 이제는 그 의미가 달라져 풀스택이라 말하지 않고 **서버 개발자를 뽑는데 클라이언트를 짜본 경험이 있는 자, 혹은 그 반대**, 상대방을 이해하는 자라고 말할 수 있다.
