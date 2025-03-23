@@ -8,7 +8,7 @@ tags: [dart, flutter]
 ---
 
 ## **Framework**
-/![(https://www.reddit.com/r/ProgrammerHumor/comments/11a1fqi/code_reuse/)](https://i.redd.it/dw23lba2qyja1.jpg)
+![(https://www.reddit.com/r/ProgrammerHumor/comments/11a1fqi/code_reuse/)](https://i.redd.it/dw23lba2qyja1.jpg)
 
 언어만으로는 어떤 필드에 들어가서 뭔가를 개발한다는 것은 굉장히 많은 시간을 필요로 하는 일이다. 
 
